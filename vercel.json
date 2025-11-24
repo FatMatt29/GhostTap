@@ -1,0 +1,7 @@
+{
+  "buildCommand": "echo 'Static deploy'",
+  "outputDirectory": ".",
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
