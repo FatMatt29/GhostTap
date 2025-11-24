@@ -1,7 +1,21 @@
 {
-  "buildCommand": "echo 'Static deploy'",
-  "outputDirectory": ".",
+  "buildCommand": "echo 'PWA Static Deploy'",
+  "outputDirectory": "public",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/manifest.json",
+      "headers": [{ "key": "Content-Type", "value": "application/json" }]
+    },
+    {
+      "source": "/ghosttap.js",
+      "headers": [{ "key": "Content-Type", "value": "application/javascript" }]
+    },
+    {
+      "source": "/(.*)\\.(png|jpg|svg|ico)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }]
+    }
   ]
 }
