@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "echo 'Force Static PWA – Serve Public'",
+  "buildCommand": "",
   "outputDirectory": "public",
-  "framework": "static",
+  "framework": null,
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ],
