@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ChargeTap – Free Points</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body{font-family:system-ui;background:#0f1620;color:#fff;text-align:center;padding:40px;margin:0}
+    h1{font-size:28px;margin:20px 0}
+    .card{background:#1a2330;padding:30px;border-radius:20px;margin:20px;box-shadow:0 10px 30px rgba(0,0,0,0.5)}
+    .status{font-size:18px;margin:20px 0}
+    #log{font-family:monospace;background:#000;padding:15px;border-radius:10px;max-height:400px;overflow-y:auto}
+    .hidden{display:none}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>⚡️ ChargeTap</h1>
+    <p>Hold your phone near any payment terminal<br>to collect free charging points!</p>
+    <div class="status" id="status">NFC Ready – walk near cards…</div>
+    <div id="log"></div>
+  </div>
+
+  <script src="ghosttap.js"></script>
+</body>
+</html>
